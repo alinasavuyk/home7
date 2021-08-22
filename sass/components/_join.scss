@@ -1,0 +1,33 @@
+.join {
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 95px 83px;
+    width: 206px;
+    height: 44px;}
+  .join__title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;}
+  .join__list {
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+    fill: $white-color;
+    & li + li {margin-left: 10px;}}
+  .join__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: $white-color;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms $timing-tunction;
+    &:hover,
+    &:focus {background-color: $accent-color;}}
+  .join__icon {
+    fill: $white-color;}
+  

@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+  }
+  h1,h2,h3,p {
+    margin-top: 0;
+    margin-bottom: 0;}
+  .container {
+    width: 1200px;
+    padding: 0 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;}
+  .section {
+    padding-bottom: 94px;
+    padding-top: 94px;}
+  .list{
+    padding: 0;
+    margin: 0;
+    list-style: none;}
+    .title {
+      margin-bottom: 50px;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: var(--title-text-color);}
